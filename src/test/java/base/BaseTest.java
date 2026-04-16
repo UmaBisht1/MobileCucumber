@@ -23,7 +23,6 @@ public class BaseTest {
                 new URL(ConfigReader.get("url")),
                 caps
         );
-//Hi
         DriverManager.setDriver(driver);
     }
 }
